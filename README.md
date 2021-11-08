@@ -5,6 +5,7 @@ screen that reacts to a random selection process and chooses a thing from the li
 
 #### Demo
 A demo for this application can be found [here](https://user-images.githubusercontent.com/18688618/140671258-c71f31a9-4d5c-4c0b-82ec-5f51932c8a4a.mp4).
+You can also download an apk [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40tobzy/things-da38994929854e9bb2aa3e6a4d9bb345-signed.apk)
 
 #### Tools:
 - [React Native](https://reactnative.dev/)
