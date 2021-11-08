@@ -7,7 +7,7 @@ import {RootStackScreenProps} from "../types";
 import {GreyButton} from "../components/Button";
 import {useThings} from "../context/ThingsContext";
 
-export const AddOrEditModalScreen = ({navigation}:RootStackScreenProps<'ThingsList'>) => {
+export const AddModalScreen = ({navigation}:RootStackScreenProps<'ThingsList'>) => {
   const [thingText, setThingText] = useState<string>('');
   const {addNewThing} = useThings();
 
