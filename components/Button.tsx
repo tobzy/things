@@ -19,6 +19,7 @@ export const GreyButton = ({buttonText, onPress}: ButtonProps) => {
   return  <TouchableOpacity
     style={styles.greyButton}
     onPress={onPress}
+    accessibilityLabel={'Button'}
   >
     <Text style={styles.greyButtonText}>{buttonText}</Text>
   </TouchableOpacity>;

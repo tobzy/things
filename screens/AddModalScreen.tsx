@@ -30,7 +30,7 @@ export const AddModalScreen = ({navigation}:RootStackScreenProps<'ThingsList'>) 
         onChangeText={setThingText}
         maxLength={15}
       />
-      {Boolean(thingText) && <GreyButton buttonText={'Add'} onPress={addOrEdit}/>}
+      {Boolean(thingText) && <GreyButton buttonText={'Add Thing'} onPress={addOrEdit}/>}
       <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
     </View>
   );

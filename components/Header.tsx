@@ -3,9 +3,7 @@ import {StyleSheet, View,Text} from "react-native";
 
 
 export const Header = () => {
-  return  <View
-    style={styles.wrapper}
-  >
+  return  <View>
     <Text style={styles.headerTitle}>THINGS</Text>
     <Text style={styles.headerSubTitle}>The App</Text>
   </View>;
@@ -22,14 +20,5 @@ const styles = StyleSheet.create({
     fontSize: 25,
     color: 'white',
     fontWeight:'bold'
-  },
-  wrapper: {
-    // backgroundColor:'white',
-    // maxWidth:150,
-    // width: '100%',
-    // borderRadius:8,
-    // height:60,
-    // alignItems:"center",
-    // justifyContent:'center'
   }
 });

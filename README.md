@@ -19,4 +19,5 @@ A demo for this application can be found [here](https://user-images.githubuserco
   The app will reload if you make edits and save.\
   You will also see any errors in the console.
 
+- Run `yarn test` to run on a few tests on some components
   
